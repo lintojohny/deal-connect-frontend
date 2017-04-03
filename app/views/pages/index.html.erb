@@ -1,0 +1,68 @@
+<div class="section-warp ask-me">
+   <div class="container clearfix">
+      <div class="box_icon box_warp box_no_border box_no_background" box_border="transparent" box_background="transparent" box_color="#FFF" style="background-color: transparent; border-color: transparent; color: rgb(255, 255, 255);">
+         <div class="row">
+            <div class="col-md-12">
+               <h2>Welcome to Ask me, Awesome Questions &amp; Answer Template</h2>
+               <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
+               <div class="clearfix"></div>
+               <%= link_to "#", class: 'color button dark_button medium' do%> About us
+               <%end%>
+               <% link_to "#", class: 'color button dark_button medium' do%>
+               Join Now
+               <% end %>
+               <div class="clearfix"></div>
+
+               <form>
+                 <input type="text" name="search" placeholder="Ask any question and you be sure find your answer ?" >
+
+              </form>
+
+           </div>
+        </div> 
+     </div> 
+  </div> 
+</div>
+
+
+<section class="container main-content">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="tabs-warp question-tab">
+
+            <div class="tab-inner-warp" style="display: block;">
+               <div class="tab-inner">
+                  <article class="question question-type-normal">
+                     <h2>
+                        <%= link_to "#" do%>
+                        This is my first Question <small> by john</small> <% end %>
+                     </h2>
+                     
+                     <div class="question-author">
+                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
+                     </div>
+
+                     <div class="question-inner">
+                        <div class="clearfix"></div>
+                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
+                        <div class="question-details">
+                           <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
+                        </div>
+                        
+                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
+                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
+                        <span class="question-view"><i class="icon-user"></i>70 views</span>
+                        <div class="clearfix"></div>
+                     </div>
+                  </article>
+                  
+                  <%= link_to "#", class: 'load-questions' do%> Load More Questions
+                  <% end %>
+               </div>
+            </div>
+         </div>
+
+      </div> 
+   </div>
+</section>
+
